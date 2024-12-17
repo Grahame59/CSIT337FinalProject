@@ -27,3 +27,4 @@ A Final project for Montclair State University CSIT 337 - Internet Computing. A 
 # 12/16/24 
 - Finish Index info page, look over all code, clean up possibly... 
 - Do the @media views
+- Add Admin login and user login possibly for website additions such as editing the services prices, names, adding or deleting services and overall avoid adding and deleting through code and rather through the website page. 
