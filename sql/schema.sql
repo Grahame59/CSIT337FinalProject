@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS rosarios_mechanics;
+
+USE rosarios_mechanics;
+
+CREATE TABLE IF NOT EXISTS contact_form (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    message TEXT NOT NULL,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
