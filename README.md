@@ -26,3 +26,4 @@ A Final project for Montclair State University CSIT 337 - Internet Computing. A 
 
 # 12/16/24 
 - Finish Index info page, look over all code, clean up possibly... 
+- Do the @media views
