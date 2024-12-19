@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang = "en">
 
@@ -24,7 +27,23 @@
                 <li class = "nav-item"><a class = "nav-link" href = "about.html">About</a></li>
                 <li class = "nav-item"><a class = "nav-link" href = "services.html">Services</a></li>
                 <li class = "nav-item"><a class = "nav-link" href = "contact.html">Contact</a></li>
+                <li class = "nav-item"><a class = "nav-link" href = "login.html">Login</a></li>
             </ul>
+            <div class = "ms-auto d-flex align-items-right">
+                <?php if (isset($_SESSION['username'])): ?>
+                    <!-- Displaying logged-in status -->
+                    <span class = "navbar-text text-white me-3">
+                        Logged in as: <strong><?php echo htmlspecialchars($_SESSION['username']); ?></strong>
+                    </span>
+                    <!-- Logout button in navbar -->
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "logout.php">Logout</a>
+                    </li>
+                <?php else: ?>
+                    <!-- Login button if not logged in -->
+                    <a href = "login.html" class = "btn btn-outline-light">Login</a>
+                <?php endif; ?>
+            </div> 
         </div>
     </div>
 </nav>

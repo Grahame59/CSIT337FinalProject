@@ -22,9 +22,19 @@ A Final project for Montclair State University CSIT 337 - Internet Computing. A 
 - SHOW DATABASES; <- Shows all DBs
 - For this project's DB paste USE rosarios_mechanics;
 - SHOW TABLES; <- Shows tables in the rosarios_mechanics Database
-- SELECT * FROM contactform; <- This will show all form entires currently in the Database
+- SELECT * FROM contactForm; <- This will show all form entries currently in the Database
+- SELECT * FROM users; 
+- SELECT * FROM services;
 
 # 12/16/24 
 - Finish Index info page, look over all code, clean up possibly... 
 - Do the @media views
-- Add Admin login and user login possibly for website additions such as editing the services prices, names, adding or deleting services and overall avoid adding and deleting through code and rather through the website page. 
+- Add Admin login and user login possibly for website additions such as editing the services prices, names, adding or deleting services and overall avoid adding and deleting through code and rather through the website page. Going to use SHA2 for credential hashing. 
+
+# 12/17/24
+- Add user login and admin login, going to add functionality to the services so they can be changed on the website rather than through the code. 
+- Going to have to set up more DB tables for user and admin.
+
+# 12/17/24 
+- Navbar is giving me so many issues , had to watch videos , now IM RUSHING to finish...
+- Okay I ran out of time to get the navBar to reflect the changes so were going to skip it and leave the project as is... Refactored all the code to a prvious point. 

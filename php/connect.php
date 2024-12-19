@@ -1,4 +1,6 @@
-<?php
+<?php 
+session_start(); 
+
 $servername = "localhost"; // or 127.0.0.1
 $username = "root";
 $password = ""; // if no password set for root
